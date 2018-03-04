@@ -25,6 +25,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   serialized_pb=_b('\n#pogoprotos/data/battle/battle.proto\x12\x16pogoprotos.data.battle\x1a/pogoprotos/data/battle/battle_participant.proto\x1a\'pogoprotos/data/battle/battle_log.proto\x1a(pogoprotos/enums/weather_condition.proto\"\xbb\x02\n\x06\x42\x61ttle\x12\x17\n\x0f\x62\x61ttle_start_ms\x18\x01 \x01(\x03\x12\x15\n\rbattle_end_ms\x18\x02 \x01(\x03\x12\x11\n\tbattle_id\x18\x03 \x01(\t\x12;\n\x08\x64\x65\x66\x65nder\x18\x04 \x01(\x0b\x32).pogoprotos.data.battle.BattleParticipant\x12\x35\n\nbattle_log\x18\x05 \x01(\x0b\x32!.pogoprotos.data.battle.BattleLog\x12;\n\x08\x61ttacker\x18\x06 \x01(\x0b\x32).pogoprotos.data.battle.BattleParticipant\x12=\n\x11weather_condition\x18\x07 \x01(\x0e\x32\".pogoprotos.enums.WeatherConditionb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_battle_dot_battle__participant__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_battle_dot_battle__log__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_weather__condition__pb2.DESCRIPTOR,])
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -106,7 +107,6 @@ _BATTLE.fields_by_name['battle_log'].message_type = pogoprotos_dot_data_dot_batt
 _BATTLE.fields_by_name['attacker'].message_type = pogoprotos_dot_data_dot_battle_dot_battle__participant__pb2._BATTLEPARTICIPANT
 _BATTLE.fields_by_name['weather_condition'].enum_type = pogoprotos_dot_enums_dot_weather__condition__pb2._WEATHERCONDITION
 DESCRIPTOR.message_types_by_name['Battle'] = _BATTLE
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 Battle = _reflection.GeneratedProtocolMessageType('Battle', (_message.Message,), dict(
   DESCRIPTOR = _BATTLE,

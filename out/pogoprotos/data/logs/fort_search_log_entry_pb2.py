@@ -25,6 +25,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   serialized_pb=_b('\n0pogoprotos/data/logs/fort_search_log_entry.proto\x12\x14pogoprotos.data.logs\x1a\"pogoprotos/data/pokemon_data.proto\x1a)pogoprotos/inventory/item/item_data.proto\x1a#pogoprotos/map/fort/fort_type.proto\"\xe5\x03\n\x12\x46ortSearchLogEntry\x12?\n\x06result\x18\x01 \x01(\x0e\x32/.pogoprotos.data.logs.FortSearchLogEntry.Result\x12\x0f\n\x07\x66ort_id\x18\x02 \x01(\t\x12\x32\n\x05items\x18\x03 \x03(\x0b\x32#.pogoprotos.inventory.item.ItemData\x12\x0c\n\x04\x65ggs\x18\x04 \x01(\x05\x12\x32\n\x0cpokemon_eggs\x18\x05 \x03(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12\x30\n\tfort_type\x18\x06 \x01(\x0e\x32\x1d.pogoprotos.map.fort.FortType\x12:\n\rawarded_items\x18\x07 \x03(\x0b\x32#.pogoprotos.inventory.item.ItemData\x12\x38\n\x0b\x62onus_items\x18\x08 \x03(\x0b\x32#.pogoprotos.inventory.item.ItemData\x12=\n\x10team_bonus_items\x18\t \x03(\x0b\x32#.pogoprotos.inventory.item.ItemData\" \n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_item_dot_item__data__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_fort_dot_fort__type__pb2.DESCRIPTOR,])
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -147,7 +148,6 @@ _FORTSEARCHLOGENTRY.fields_by_name['bonus_items'].message_type = pogoprotos_dot_
 _FORTSEARCHLOGENTRY.fields_by_name['team_bonus_items'].message_type = pogoprotos_dot_inventory_dot_item_dot_item__data__pb2._ITEMDATA
 _FORTSEARCHLOGENTRY_RESULT.containing_type = _FORTSEARCHLOGENTRY
 DESCRIPTOR.message_types_by_name['FortSearchLogEntry'] = _FORTSEARCHLOGENTRY
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 FortSearchLogEntry = _reflection.GeneratedProtocolMessageType('FortSearchLogEntry', (_message.Message,), dict(
   DESCRIPTOR = _FORTSEARCHLOGENTRY,

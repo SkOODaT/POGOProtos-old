@@ -21,6 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_pb=_b('\n,pogoprotos/map/weather/display_weather.proto\x12\x16pogoprotos.map.weather\"\xd9\x03\n\x0e\x44isplayWeather\x12H\n\x0b\x63loud_level\x18\x01 \x01(\x0e\x32\x33.pogoprotos.map.weather.DisplayWeather.DisplayLevel\x12G\n\nrain_level\x18\x02 \x01(\x0e\x32\x33.pogoprotos.map.weather.DisplayWeather.DisplayLevel\x12G\n\nwind_level\x18\x03 \x01(\x0e\x32\x33.pogoprotos.map.weather.DisplayWeather.DisplayLevel\x12G\n\nsnow_level\x18\x04 \x01(\x0e\x32\x33.pogoprotos.map.weather.DisplayWeather.DisplayLevel\x12\x46\n\tfog_level\x18\x05 \x01(\x0e\x32\x33.pogoprotos.map.weather.DisplayWeather.DisplayLevel\x12\x16\n\x0ewind_direction\x18\x06 \x01(\x05\"B\n\x0c\x44isplayLevel\x12\x0b\n\x07LEVEL_0\x10\x00\x12\x0b\n\x07LEVEL_1\x10\x01\x12\x0b\n\x07LEVEL_2\x10\x02\x12\x0b\n\x07LEVEL_3\x10\x03\x62\x06proto3')
 )
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -128,7 +129,6 @@ _DISPLAYWEATHER.fields_by_name['snow_level'].enum_type = _DISPLAYWEATHER_DISPLAY
 _DISPLAYWEATHER.fields_by_name['fog_level'].enum_type = _DISPLAYWEATHER_DISPLAYLEVEL
 _DISPLAYWEATHER_DISPLAYLEVEL.containing_type = _DISPLAYWEATHER
 DESCRIPTOR.message_types_by_name['DisplayWeather'] = _DISPLAYWEATHER
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 DisplayWeather = _reflection.GeneratedProtocolMessageType('DisplayWeather', (_message.Message,), dict(
   DESCRIPTOR = _DISPLAYWEATHER,

@@ -21,6 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_pb=_b('\n5pogoprotos/settings/client_performance_settings.proto\x12\x13pogoprotos.settings\"g\n\x19\x43lientPerformanceSettings\x12!\n\x19\x65nable_local_disk_caching\x18\x01 \x01(\x08\x12\'\n\x1fmax_number_local_battle_parties\x18\x02 \x01(\x05\x62\x06proto3')
 )
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -63,7 +64,6 @@ _CLIENTPERFORMANCESETTINGS = _descriptor.Descriptor(
 )
 
 DESCRIPTOR.message_types_by_name['ClientPerformanceSettings'] = _CLIENTPERFORMANCESETTINGS
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 ClientPerformanceSettings = _reflection.GeneratedProtocolMessageType('ClientPerformanceSettings', (_message.Message,), dict(
   DESCRIPTOR = _CLIENTPERFORMANCESETTINGS,

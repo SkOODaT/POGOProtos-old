@@ -21,6 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_pb=_b('\n(pogoprotos/data/raid/participation.proto\x12\x14pogoprotos.data.raid\"\xf7\x01\n\rParticipation\x12#\n\x1bindividual_damage_pokeballs\x18\x01 \x01(\x05\x12\x1d\n\x15team_damage_pokeballs\x18\x02 \x01(\x05\x12\x1f\n\x17gym_ownership_pokeballs\x18\x03 \x01(\x05\x12\x16\n\x0e\x62\x61se_pokeballs\x18\x04 \x01(\x05\x12\x17\n\x0f\x62lue_percentage\x18\x05 \x01(\x01\x12\x16\n\x0ered_percentage\x18\x06 \x01(\x01\x12\x19\n\x11yellow_percentage\x18\x07 \x01(\x01\x12\x1d\n\x15\x62onus_item_multiplier\x18\x08 \x01(\x02\x62\x06proto3')
 )
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -105,7 +106,6 @@ _PARTICIPATION = _descriptor.Descriptor(
 )
 
 DESCRIPTOR.message_types_by_name['Participation'] = _PARTICIPATION
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 Participation = _reflection.GeneratedProtocolMessageType('Participation', (_message.Message,), dict(
   DESCRIPTOR = _PARTICIPATION,

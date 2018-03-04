@@ -21,6 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_pb=_b('\nEpogoprotos/networking/requests/messages/redeem_passcode_message.proto\x12\'pogoprotos.networking.requests.messages\"0\n\x1cRedeemPasscodeRequestMessage\x12\x10\n\x08passcode\x18\x01 \x01(\tb\x06proto3')
 )
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -56,7 +57,6 @@ _REDEEMPASSCODEREQUESTMESSAGE = _descriptor.Descriptor(
 )
 
 DESCRIPTOR.message_types_by_name['RedeemPasscodeRequestMessage'] = _REDEEMPASSCODEREQUESTMESSAGE
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 RedeemPasscodeRequestMessage = _reflection.GeneratedProtocolMessageType('RedeemPasscodeRequestMessage', (_message.Message,), dict(
   DESCRIPTOR = _REDEEMPASSCODEREQUESTMESSAGE,

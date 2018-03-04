@@ -25,6 +25,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   serialized_pb=_b('\n+pogoprotos/map/weather/client_weather.proto\x12\x16pogoprotos.map.weather\x1a,pogoprotos/map/weather/display_weather.proto\x1a-pogoprotos/map/weather/gameplay_weather.proto\x1a*pogoprotos/map/weather/weather_alert.proto\"\xdd\x01\n\rClientWeather\x12\x12\n\ns2_cell_id\x18\x01 \x01(\x04\x12?\n\x0f\x64isplay_weather\x18\x02 \x01(\x0b\x32&.pogoprotos.map.weather.DisplayWeather\x12\x41\n\x10gameplay_weather\x18\x03 \x01(\x0b\x32\'.pogoprotos.map.weather.GameplayWeather\x12\x34\n\x06\x61lerts\x18\x04 \x03(\x0b\x32$.pogoprotos.map.weather.WeatherAlertb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_map_dot_weather_dot_display__weather__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_weather_dot_gameplay__weather__pb2.DESCRIPTOR,pogoprotos_dot_map_dot_weather_dot_weather__alert__pb2.DESCRIPTOR,])
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -84,7 +85,6 @@ _CLIENTWEATHER.fields_by_name['display_weather'].message_type = pogoprotos_dot_m
 _CLIENTWEATHER.fields_by_name['gameplay_weather'].message_type = pogoprotos_dot_map_dot_weather_dot_gameplay__weather__pb2._GAMEPLAYWEATHER
 _CLIENTWEATHER.fields_by_name['alerts'].message_type = pogoprotos_dot_map_dot_weather_dot_weather__alert__pb2._WEATHERALERT
 DESCRIPTOR.message_types_by_name['ClientWeather'] = _CLIENTWEATHER
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 ClientWeather = _reflection.GeneratedProtocolMessageType('ClientWeather', (_message.Message,), dict(
   DESCRIPTOR = _CLIENTWEATHER,

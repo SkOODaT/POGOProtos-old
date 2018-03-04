@@ -21,6 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_pb=_b('\n>pogoprotos/networking/responses/redeem_passcode_response.proto\x12\x1fpogoprotos.networking.responses\"\x87\x03\n\x16RedeemPasscodeResponse\x12N\n\x06result\x18\x01 \x01(\x0e\x32>.pogoprotos.networking.responses.RedeemPasscodeResponse.Result\x12[\n\racquired_item\x18\x02 \x03(\x0b\x32\x44.pogoprotos.networking.responses.RedeemPasscodeResponse.AcquiredItem\x12\x1c\n\x14\x61\x63quired_items_proto\x18\x03 \x01(\x0c\x12\x10\n\x08passcode\x18\x04 \x01(\t\x1a+\n\x0c\x41\x63quiredItem\x12\x0c\n\x04item\x18\x01 \x01(\t\x12\r\n\x05\x63ount\x18\x02 \x01(\x03\"c\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x11\n\rNOT_AVAILABLE\x10\x02\x12\x18\n\x14OVER_INVENTORY_LIMIT\x10\x03\x12\x14\n\x10\x41LREADY_REDEEMED\x10\x04\x62\x06proto3')
 )
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -153,7 +154,6 @@ _REDEEMPASSCODERESPONSE.fields_by_name['result'].enum_type = _REDEEMPASSCODERESP
 _REDEEMPASSCODERESPONSE.fields_by_name['acquired_item'].message_type = _REDEEMPASSCODERESPONSE_ACQUIREDITEM
 _REDEEMPASSCODERESPONSE_RESULT.containing_type = _REDEEMPASSCODERESPONSE
 DESCRIPTOR.message_types_by_name['RedeemPasscodeResponse'] = _REDEEMPASSCODERESPONSE
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 RedeemPasscodeResponse = _reflection.GeneratedProtocolMessageType('RedeemPasscodeResponse', (_message.Message,), dict(
 

@@ -23,6 +23,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   serialized_pb=_b('\n0pogoprotos/inventory/exclusive_ticket_info.proto\x12\x14pogoprotos.inventory\x1a\"pogoprotos/data/pokemon_data.proto\"\x90\x02\n\x13\x45xclusiveTicketInfo\x12\x11\n\traid_seed\x18\x01 \x01(\x03\x12\x0f\n\x07\x66ort_id\x18\x02 \x01(\t\x12\x15\n\rstart_time_ms\x18\x04 \x01(\x03\x12\x13\n\x0b\x65nd_time_ms\x18\x05 \x01(\x03\x12\x11\n\timage_url\x18\x06 \x01(\t\x12\x10\n\x08latitude\x18\x07 \x01(\x01\x12\x11\n\tlongitude\x18\x08 \x01(\x01\x12\x10\n\x08gym_name\x18\t \x01(\t\x12\x15\n\rspawn_time_ms\x18\n \x01(\x03\x12\x14\n\x0cis_cancelled\x18\x0b \x01(\x08\x12\x32\n\x0craid_pokemon\x18\x0c \x01(\x0b\x32\x1c.pogoprotos.data.PokemonDatab\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,])
+_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
@@ -129,7 +130,6 @@ _EXCLUSIVETICKETINFO = _descriptor.Descriptor(
 
 _EXCLUSIVETICKETINFO.fields_by_name['raid_pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 DESCRIPTOR.message_types_by_name['ExclusiveTicketInfo'] = _EXCLUSIVETICKETINFO
-_sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 ExclusiveTicketInfo = _reflection.GeneratedProtocolMessageType('ExclusiveTicketInfo', (_message.Message,), dict(
   DESCRIPTOR = _EXCLUSIVETICKETINFO,
